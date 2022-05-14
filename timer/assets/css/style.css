@@ -1,0 +1,46 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+ body {
+        color: white;
+        background-image: url("../img/bg3.webp");
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+        padding-top: 50px;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.btn-video{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background: #00ff43;
+  padding: 15px;
+  font-weight: 700;
+}
+ #demo a:hover{
+  background: #ffbc00;
+  color: #fff;
+}
+#timer{
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  background: #3e3e3e;
+  max-width: 100px;
+  text-align: center;
+}
+.footer{
+  color: #fff;
+  margin:15px 0px;
+}
+.footer a{
+  color: #fff;
+  text-decoration: none;
+}
